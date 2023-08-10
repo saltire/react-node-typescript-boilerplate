@@ -4,5 +4,8 @@ import './index.scss';
 import App from './App';
 
 
-createRoot(document.querySelector('#root')!)
-  .render(<App headerText='React-Node-TypeScript Boilerplate App' />);
+const container = document.getElementById('root');
+if (container) {
+  const root = createRoot(container);
+  root.render(<App headerText='React-Node-TypeScript Boilerplate App' />);
+}

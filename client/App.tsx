@@ -4,15 +4,15 @@ import axios from 'axios';
 import './App.scss';
 
 
-interface AppProps {
+type AppProps = {
   headerText: string,
-}
+};
 
 export default function App({ headerText }: AppProps) {
   const [message, setMessage] = useState('Loading...');
 
   useEffect(() => {
-    axios.get('/api/message')
+    axios.get<{ message: string }>('/api/message')
       .then(({ data }) => setMessage(data.message))
       .catch(console.error);
   }, []);
