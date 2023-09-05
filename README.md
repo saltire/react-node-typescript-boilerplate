@@ -14,6 +14,7 @@ Just clone the repo, edit the `name`, `description`, and other fields in `packag
 - Webpack config files for development and production.
 - Basic code splitting: vendor files and stylesheets are extracted to separate output files.
 - Minified JS and CSS files when building for production.
+- Babel and PostCSS for browser compatibility.
 - Hot reloading on the React app.
 - Environment variables can be declared in a `.env` file in the root folder during development.
 - Code linting with ESLint. The configuration is based on Airbnb's style guide,
