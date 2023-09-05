@@ -11,7 +11,6 @@ Just clone the repo, edit the `name`, `description`, and other fields in `packag
 - A starter single-page React app with very basic layout and styles, a favicon,
   and an example asynchronous call to the server API.
 - An Express.js server with a basic logger and error handler, and a place to put API routes.
-- SCSS for styling.
 - Webpack config files for development and production.
 - Basic code splitting: vendor files and stylesheets are extracted to separate output files.
 - Minified JS and CSS files when building for production.

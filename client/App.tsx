@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import './App.scss';
+import './App.css';
 
 
 type AppProps = {
