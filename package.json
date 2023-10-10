@@ -17,7 +17,7 @@
     "check:server": "tsc -p server --noEmit",
     "check:client": "tsc -p client --noEmit",
     "check": "npm run check:server && npm run check:client",
-    "stylelint": "stylelint ./client",
+    "stylelint": "stylelint \"./client/**/*.css\"",
     "eslint": "eslint .",
     "eslint:server": "eslint ./server",
     "eslint:client": "eslint ./client",
